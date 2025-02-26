@@ -47,7 +47,7 @@ public class Main {
         int multi = 2;
         for ( int g = 2; g <= 10; g++) {
             total = g * multi;
-            System.out.println(multi + " * " + g + " = " + total);
+            System.out.println(multi + " * " + g + " = " + total );
         }
     }
 }
