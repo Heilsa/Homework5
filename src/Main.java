@@ -44,8 +44,10 @@ public class Main {
             System.out.println("Месяц " + k + ", сумма накоплений равна " + total + " рублей");
         }
         System.out.println("Задача 10");
-        for ( int g = 2; g <= 20; g = g+g*1 ) {
-            System.out.println("Таблица умножения на 2 " + g);
+        int multi = 2;
+        for ( int g = 2; g <= 10; g++) {
+            total = g * multi;
+            System.out.println(multi + " * " + g + " = " + total);
         }
     }
 }
