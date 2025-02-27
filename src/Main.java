@@ -29,25 +29,25 @@ public class Main {
             System.out.println("Последовательность чисел " + n);
         }
         System.out.println("Задание 8");
-        int payday =  29000;
+        int payday = 29000;
         int allCash = 0;
-        for ( int m = 1; m <= 12; m++) {
-            allCash = allCash+payday;
+        for (int m = 1; m <= 12; m++) {
+            allCash = allCash + payday;
             System.out.println("Месяц " + m + ", сумма накоплений равна " + allCash + " рублей");
         }
         System.out.println("Задача 9");
         int cash = 29000;
         int total = 0;
-        for (int k = 1; k <=12; k++) {
-            total = total + total/100;
-            total = cash+total;
+        for (int k = 1; k <= 12; k++) {
+            total = total + total / 100;
+            total = cash + total;
             System.out.println("Месяц " + k + ", сумма накоплений равна " + total + " рублей");
         }
         System.out.println("Задача 10");
         int multi = 2;
-        for ( int g = 2; g <= 10; g++) {
+        for (int g = 1; g <= 10; g++) {
             total = g * multi;
-            System.out.println(multi + " * " + g + " = " + total );
+            System.out.println(multi + " * " + g + " = " + total);
         }
     }
 }
